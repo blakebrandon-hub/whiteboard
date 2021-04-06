@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Whiteboard</title>
+</head>
+<body>
+
+	<h3>HTML5 Canvas Whiteboard<br><a href="https://github.com/blakebrandon-hub/whiteboard">github.com/blakebrandon-hub/whiteboard</a></h3>
+	<b>For desktop browser only</b>
+	<br>
+	<i>By: Blake Brandon</i><br><br>
+
+	<canvas id="canvas" width="800" height="600" style="border:1px solid #d3d3d3;"></canvas>
+
+	<br>
+	<input id='slider' type="range" min="1" max="10" value="1">
+	<button id='eraser' onclick="changeColor(this.id)"><img src="images/eraser.png" width="50" height="50"></button>
+	<button id='black_button' value='black'onclick="changeColor(this.id)"><img src="images/black.png" width="50" height="50"></button>
+	<button id='red_button'onclick="changeColor(this.id)"><img src="images/red.png" width="50" height="50"></button>
+	<button id='blue_button' onclick="changeColor(this.id)"><img src="images/blue.png" width="50" height="50"></button>
+	<button id='green_button' onclick="changeColor(this.id)"><img src="images/green.png" width="50" height="50"></button>
+	<input type="submit" onclick="clearCanvas(this.id)" value="Clear">
+	<input id="clear_button" type="submit" value="Save Image" onclick="saveImage()">
+
+	<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

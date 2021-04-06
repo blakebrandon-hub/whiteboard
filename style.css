@@ -1,0 +1,28 @@
+*{
+	font-family: sans-serif;	
+}
+
+h3{
+	padding-top: 25px;	
+}
+
+body{
+	width: 900px;
+	margin: 0 auto;
+}
+
+button {
+	margin: 10px;
+}
+
+input {
+	margin: 10px;
+}
+
+b{
+	font-size: 0.9rem;
+}
+
+i{
+	font-size: 0.9rem;
+}
