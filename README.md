@@ -1,4 +1,4 @@
 # Whiteboard
 Created with HTML5 Canvas
 <br>
-<img src='https://user-images.githubusercontent.com/50201165/113704190-ab665700-9690-11eb-92bd-4832a6d8a392.jpg'>
+<img src='https://user-images.githubusercontent.com/50201165/113704351-df417c80-9690-11eb-89e2-58e8fafd3f15.jpg'>
